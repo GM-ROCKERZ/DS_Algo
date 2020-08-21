@@ -1,6 +1,6 @@
-package Stacks;
+package Queues;
 
-public class Employee {
+public class Employee2 {
 
 	private String firstName;
 	private String lastName;
@@ -26,7 +26,7 @@ public class Employee {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Employee other = (Employee) obj;
+		Employee2 other = (Employee2) obj;
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;
@@ -42,7 +42,7 @@ public class Employee {
 		return true;
 	}
 
-	public Employee(String firstName, String lastName, int id) {
+	public Employee2(String firstName, String lastName, int id) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;

@@ -4,18 +4,18 @@ import java.util.EmptyStackException;
 
 public class ArrayStack {
 	
-	private Employee[] stack;
+	private Employee1[] stack;
 	private int top;
 	
 	public ArrayStack(int capacity) {
 		
-		stack = new Employee[capacity];
+		stack = new Employee1[capacity];
 	}
 
-	public void push(Employee employee) {
+	public void push(Employee1 employee) {
 		if(top==stack.length) {
 			//need to resize the backing array
-			Employee[] newArray = new Employee[2*stack.length];
+			Employee1[] newArray = new Employee1[2*stack.length];
 			System.arraycopy(stack, 0, newArray, 0, stack.length);
 			stack = newArray;
 		}
@@ -28,11 +28,11 @@ public class ArrayStack {
 			throw new EmptyStackException();
 		}
 		
-			Employee employee = stack[--top];
+			Employee1 employee = stack[--top];
 			stack[top] = null;
 	}
 	
-	public Employee  peek() {
+	public Employee1  peek() {
 		
 		if(isEmpty()) {
 			throw new EmptyStackException();
