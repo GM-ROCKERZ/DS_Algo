@@ -1,7 +1,5 @@
 package Queues;
 
-import Stacks.Employee1;
-
 public class QueueWithArray {
 
 	public static void main(String[] args) {
