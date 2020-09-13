@@ -6,6 +6,7 @@ public class GitPrac {
 
 		System.out.println("i am hungry");
 		System.out.println("eat ice cream");
+		System.out.println("Are you thirsty?");
 	}
 
 }
