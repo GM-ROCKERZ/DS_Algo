@@ -15,7 +15,6 @@ public class InsertionSort {
 			for(i=firstUnsortedIndex;i>0&&intArray[i-1]>newElement;i--) {
 				
 				intArray[i]=intArray[i-1];
-			
 				
 			}
 

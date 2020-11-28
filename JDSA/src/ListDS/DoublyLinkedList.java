@@ -20,21 +20,21 @@ public class DoublyLinkedList {
 		list.printList();
 		System.out.println(list.getSize());
 		
-		
-		
-		Employee billEnd = new Employee("Bill","End",78);
-		list.addToEnd(billEnd);
-		list.printList();
-		System.out.println(list.getSize());
-		
-		list.removeFromFront();
-		list.printList();
-		System.out.println(list.getSize());
-		
-		
-		list.removefromEnd();
-		list.printList();
-		System.out.println(list.getSize());
+//		
+//		
+//		Employee billEnd = new Employee("Bill","End",78);
+//		list.addToEnd(billEnd);
+//		list.printList();
+//		System.out.println(list.getSize());
+//		
+//		list.removeFromFront();
+//		list.printList();
+//		System.out.println(list.getSize());
+//		
+//		
+//		list.removefromEnd();
+//		list.printList();
+//		System.out.println(list.getSize());
 		
 	}
 

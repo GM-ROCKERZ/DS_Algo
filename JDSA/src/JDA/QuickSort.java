@@ -52,8 +52,6 @@ public class QuickSort {
 				input[j] = input[i];
 			}
 		}
-
-
 		input[j]=pivot;
 		return j;
 	}

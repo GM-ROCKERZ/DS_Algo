@@ -1,4 +1,4 @@
-package ListDS;
+ package ListDS;
 
 public class EmployeeLinkedList {
 	
@@ -28,6 +28,7 @@ public class EmployeeLinkedList {
 		
 		EmployeeNode removeNode=head;
 		head = head.getNext();
+		System.out.println(head.getNext());
 		size--;
 		removeNode.setNext(null);
 		return removeNode;

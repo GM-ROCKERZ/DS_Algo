@@ -11,17 +11,17 @@ public class SinglyLinkedList {
 		Employee mikeWilson = new Employee("Mike","Wilson",3245);
 		
 		EmployeeLinkedList list = new EmployeeLinkedList();
-		System.out.println(list.isEmpty());
+	//	System.out.println(list.isEmpty());
 		list.addToFront(janeJones);
 		list.addToFront(johnDoe);
 		list.addToFront(marrySmith);
 		list.addToFront(mikeWilson);
 		
-		list.printList();
-		System.out.println(list.getSize());
+//		list.printList();
+//		System.out.println(list.getSize());
 		
 		list.removeFromFront();
-		System.out.println(list.getSize());
+//		System.out.println(list.getSize());
 		list.printList();
 	}
 }

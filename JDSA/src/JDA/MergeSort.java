@@ -29,8 +29,8 @@ public class MergeSort {
 	//{20,35,-15,7,55,1,-22};
 	public static void merge(int input[],int start,int mid,int end) {
 		
-		//if you are sorting in decending order
-		if(input[mid -1]>=input[mid]) {
+
+		if(input[mid -1]<=input[mid]) {
 			return;
 		}
 		
@@ -42,7 +42,9 @@ public class MergeSort {
 		
 		while(i < mid && j< end) {
 			//if you are sorting in decending order
-			temp[tempIndex++] = input[i] >= input[j] ? input[i++] : input[j++];
+			
+			temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++];
+			
 		}
 
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
